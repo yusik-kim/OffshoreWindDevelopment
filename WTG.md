@@ -20,7 +20,7 @@ All WTG activities in the [Offshore Wind Development Structure](./OffshoreWindDe
 The design described below is "OEM Platform Design" which is not part of WBS in Offshore Wind Development Structure. This design: 
 - Take about 2 years 
 - Is completed before Y1 in Offshore Wind Development Structure 
-- Has type certicate
+- Has type certificate
 
 
 ----
@@ -101,5 +101,6 @@ Based on the load inputs each component is developed further.
 5. Control & Protection System Review -> Control system safety compliance report
 6. Manufacturing Quality System Audit -> Manufacturing conformity statement
 7. Prototype Testing -> Prototype validation report.
+
 
 
