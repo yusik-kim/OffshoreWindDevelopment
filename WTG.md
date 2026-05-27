@@ -1,4 +1,4 @@
-[Offshore Wind Development Structure](./OffshoreWindDevelopment_note.md)
+[Offshore Wind Development Structure](./README.md)
 
 
 # Design process of Wind Turbine Generator (WTG)
