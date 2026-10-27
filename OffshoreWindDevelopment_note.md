@@ -2,10 +2,12 @@
 
 ---
 
-# 1. Executive overview 
+## Executive overview
 
 It provides a high-level overview of developer-side project management for bottom-fixed offshore wind farms.
-The objective is to give insights into how and when complex, multi-layered stakeholders are involved throughout the entire project lifecycle. In addition, it highlights the link between the project process and WTG / FOU design.
+[Home and glossary](./README.md) · [WTG engineering](./WTG.md) · [Foundation engineering](./FOU.md) · [Worked example](./WTG_Foundation_example.md)
+
+The objective is to give insights into how and when complex, multi-layered stakeholders are involved from origination through operations handover. In addition, it highlights the link between the project process and WTG / FOU design.
 
 
 
@@ -14,7 +16,9 @@ The objective is to give insights into how and when complex, multi-layered stake
 
 # 1. Project Life Cycle Overview 
 
-## 1.1 Stage gate structure and major activities 
+## 1.1 Stage gate structure and major activities
+
+The gates below illustrate one governance model, not a universal sequence. Financial close and FID ordering, conditional approvals, and limited notices to proceed depend on financing and contract arrangements. Define the evidence, approver, and outstanding conditions for each gate. The WTG and foundation guides provide engineering readiness checks without expanding the WBS.
 
 | Phase                           | Gate                         | Major Activities                                                                                                                                                |
 | ------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -43,7 +47,7 @@ The objective is to give insights into how and when complex, multi-layered stake
 - G4 (Financial Close) reduces financing risk.
 - G5 (FID) commits capital.
 - G6 (NTP) activates execution contracts.
-- G8 (COD) marks full revenue commencement.
+- G8 (COD) marks the contractual commercial-operation milestone; revenue may begin before COD depending on energization and commercial arrangements.
 
 
 -----
@@ -58,6 +62,8 @@ Legend:\
 █ = Major activity \
 ░ = Minor / support activity \
 ◆ = Milestone occurs in this year 
+
+Illustrative programme only: assumes site award in Y1, revenue award in Y2, and sufficient permitting, grid, supplier and vessel readiness for the dates below. It is not a market-specific duration benchmark; rebaseline against actual dependencies.
 
 Project Duration: 6 Years \
 FID assumed at end of Year 3 \
@@ -127,7 +133,7 @@ NTP assumed early Year 4
 -   [2.2.1 WTG selection & preliminary load envelope](./WTG.md) 
 -   2.2.2 Layout optimization 
 -   [2.2.3 Foundation concept design](./FOU.md) 
--   2.2.4 Electrical concept (IAC, OSS, export) 
+-   [2.2.4 Electrical concept (IAC, OSS, export)](./OSS/OSS.md) — supporting [concept tutorial](./OSS/Tutorial%20concept%20design.md)
 -   2.2.5 Installation methodology study 
 -   2.2.6 Typhoon & seismic design basis
 
@@ -173,7 +179,7 @@ NTP assumed early Year 4
 -   4.1.1 Blade production 
 -   4.1.2 Nacelle assembly 
 -   4.1.3 Tower fabrication 
--   4.1.4 Factor Acceptance Test
+-   4.1.4 Factory Acceptance Test
 
 ### 4.2 Foundation Fabrication
 
@@ -188,7 +194,7 @@ NTP assumed early Year 4
 -   4.3.1 Jacket / monopile fabrication 
 -   4.3.2 Topsides build 
 -   4.3.3 HV equipment installation 
--   4.3.4 Factor Acceptance Test
+-   4.3.4 Factory Acceptance Test
 
 ### 4.4 Cable Manufacturing
 
@@ -243,4 +249,3 @@ NTP assumed early Year 4
 -   7.6 Handover to Operations
 
 ------------------------------------------------------------------------
-

@@ -128,13 +128,13 @@ You are stepping up from 66 kV to export voltage (e.g., 220/275/330 kV).
 
 Common configurations:
 
-Option A: 2 transformers, each 50% (N-1)
+Option A: 2 transformers sharing station output (reduced output after one outage)
 Each transformer can carry ~50% (or slightly more) of total station load
 If one fails, you curtail but keep generating
 
 Example for 500 MW OSS:
 
-2 × 300 MVA transformers (allows some overload margin)
+2 × 300 MVA transformers (600 MVA aggregate nameplate capacity). After one outage, 300 MVA remains at nominal rating; this cannot maintain 500 MW output. Assess power factor, reactive duties, thermal limits, and permitted curtailment explicitly; aggregate headroom is not an overload rating.
 
 Pros:
 
@@ -162,7 +162,7 @@ Practical selection logic
 
 For concept stage:
 
-Decide if you are designing for N-1 at OSS level.
+Define the contingency requirement: which single failures are covered, the retained MW/MVA capability, and allowable curtailment. Transformer count alone does not demonstrate full-output N-1 capability.
 Decide allowable curtailment on single failure.
 
 For a first-timer:
@@ -284,7 +284,7 @@ One reasonable FEED concept you can use as a starting point:
 
 Collection: 66 kV
 Topology: 2 OSS × 500 MW
-Transformers per OSS: 2 × ~300 MVA (N-1 concept)
+Transformers per OSS: 2 × ~300 MVA, with reduced output after one transformer outage; required retained capacity and curtailment to be agreed.
 Export: 220/275 kV HVAC (matched to grid POI where possible)
 HV switchgear: GIS
 Reactive: onshore primary, offshore allowance placeholder

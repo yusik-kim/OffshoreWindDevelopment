@@ -102,7 +102,7 @@
 
 # 3 Procurement
 ## 3.2 Major Package Procurement
-### 3.2.3 OSS EPC Contract
+### 3.2.3 OSS EPCI Contract
 3.2.3.1 Tender Preparation
 
 3.2.3.1.1 Employer requirements
@@ -125,7 +125,7 @@
 
 3.2.3.3 Contract Award
 
-3.2.3.3.1 EPC contract execution
+3.2.3.3.1 EPCI contract execution
 
 3.2.3.3.2 NTP preparation
 
@@ -253,5 +253,3 @@
 
 
 -----
-
-
